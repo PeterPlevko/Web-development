@@ -1,0 +1,20 @@
+.shop {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr 3fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+.sticky-cart {
+  grid-column: 1 / 3;
+  position: sticky;
+  top: 0;
+  margin-top: 20px;
+  
+}
+
+.sticky-cart > * {
+  margin: 5px;
+}

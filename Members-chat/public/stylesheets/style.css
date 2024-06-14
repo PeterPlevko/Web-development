@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(106,90,205);
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  margin: 30px;
+}
+
+.logo {
+  
+}
+.nav_buttons {
+  margin-left: auto;
+  display: flex;
+}
+.nav_button {
+  margin: 0 10px;
+  
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.post {
+  background-color: rgb(122, 108, 212);
+  width: 60%;
+  margin: 0 auto 20px auto;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+.post-form {
+  padding: 30px 70px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea  {
+  background-color: rgb(177,156,217);
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+label {
+  margin: 10px 0;
+}
+
+
+
+input:-webkit-autofill
+{
+ -webkit-background-composite: black;
+ -webkit-box-shadow: 0 0 0 30px rgb(177,156,217) inset !important;
+}
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.button {
+  width: 210px;
+  height: 50px;
+  background: #f3f0f1;
+  position: relative;
+  background: #f3f0f1;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  box-shadow:  6px 6px 10px rgba(0, 0, 0, 0.2);
+  color: #6f6cde;
+  
+}
+
+  
+
+.credential {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+.credential_item:first-child{
+  margin-right: 20px;
+}
+
+a {
+  color: #00B7FF;
+}

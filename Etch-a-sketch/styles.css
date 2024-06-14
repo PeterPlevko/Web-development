@@ -1,0 +1,38 @@
+#name {
+    text-align: center;
+    color: black;   
+    font-size: 50px;
+}
+
+#size-button{
+    color: black;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}
+
+#button-align{
+    text-align: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);  
+    max-width: 500px;
+    min-height: 500px;
+    margin: auto;
+    width: auto;
+    border: 1px solid black;    
+  }
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+}
+
+#div:hover {
+    color: red;
+}

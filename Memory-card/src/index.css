@@ -1,0 +1,48 @@
+body {
+  font-family: 'Press Start 2P';
+  background-color: lightgrey
+}
+
+.image-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 280px;
+  padding: 10px;
+  font-size: 25px;
+  background-color: lightgrey;
+
+  color: black;
+  margin-bottom: 20px;
+}
+
+.image-component:hover {
+  border-color: #ff0000;
+}
+
+.image-component img {
+  border: 5px solid black;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+.gameboard {
+  background-color: lightgrey;
+  margin: 10px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: space-around;
+}
+
+.gameboard-container {
+  
+  color: black;
+  text-align: center;
+  margin: 10px 300px;
+  font-size: 40px;
+}

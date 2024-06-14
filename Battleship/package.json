@@ -1,0 +1,27 @@
+{
+  "name": "Battleship",
+  "version": "1.0.0",
+  "description": "> A TDD web-application of the famous strategy guessing game [Battleship](https://en.wikipedia.org/wiki/Battleship_(game))",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterPlevko/Battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterPlevko/Battleship/issues"
+  },
+  "homepage": "https://github.com/PeterPlevko/Battleship#readme",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

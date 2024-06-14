@@ -1,0 +1,62 @@
+.header{
+    margin: auto;
+    width: 50%;
+    border: 3px solid grey;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#new_book{
+    min-height: 50px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.new_button{
+    text-align: center;
+    padding: 20px;
+}
+
+.popup{
+    margin: auto;
+    width: 20%;
+    border: 3px solid grey;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0;
+    display: none;
+    margin-bottom: 10px;
+
+}
+
+.popup.active{
+    opacity: 1;
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+div > div {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.books_grid{
+    text-align: center;
+}
+
+.button_inside_grid{
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    min-height: 30px;
+    font-size: 20px;
+}

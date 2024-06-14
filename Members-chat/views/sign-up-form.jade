@@ -1,0 +1,13 @@
+extends layout
+block content
+    form.post.post-form(action='', method='POST')
+        .field 
+            label(for="username") Username:
+            input(type="text", placeholder="username", name='username')
+        .field
+            label(for='password') Password:
+            input(type='password', placeholder='password', name='password')
+        .field
+            label(for='passwordConfirmation') Confirm password:
+            input(type='password', placeholder='password', name='passwordConfirmation')
+        button.button Sign in

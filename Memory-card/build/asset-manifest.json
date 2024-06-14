@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Memory-card/static/css/main.093f88ac.chunk.css",
+    "main.js": "/Memory-card/static/js/main.5006296c.chunk.js",
+    "main.js.map": "/Memory-card/static/js/main.5006296c.chunk.js.map",
+    "runtime-main.js": "/Memory-card/static/js/runtime-main.c50dcbf7.js",
+    "runtime-main.js.map": "/Memory-card/static/js/runtime-main.c50dcbf7.js.map",
+    "static/js/2.514eab20.chunk.js": "/Memory-card/static/js/2.514eab20.chunk.js",
+    "static/js/2.514eab20.chunk.js.map": "/Memory-card/static/js/2.514eab20.chunk.js.map",
+    "static/js/3.10be8a51.chunk.js": "/Memory-card/static/js/3.10be8a51.chunk.js",
+    "static/js/3.10be8a51.chunk.js.map": "/Memory-card/static/js/3.10be8a51.chunk.js.map",
+    "index.html": "/Memory-card/index.html",
+    "static/css/main.093f88ac.chunk.css.map": "/Memory-card/static/css/main.093f88ac.chunk.css.map",
+    "static/js/2.514eab20.chunk.js.LICENSE.txt": "/Memory-card/static/js/2.514eab20.chunk.js.LICENSE.txt",
+    "static/media/Beth.5fd06661.png": "/Memory-card/static/media/Beth.5fd06661.png",
+    "static/media/Jerry.e02246a5.png": "/Memory-card/static/media/Jerry.e02246a5.png",
+    "static/media/Jessica.e3b970f3.png": "/Memory-card/static/media/Jessica.e3b970f3.png",
+    "static/media/Morty.31b475c2.jpg": "/Memory-card/static/media/Morty.31b475c2.jpg",
+    "static/media/Pickle_Rick.7c1fbd9f.jpeg": "/Memory-card/static/media/Pickle_Rick.7c1fbd9f.jpeg",
+    "static/media/PoppyButthole.e16b3213.jpg": "/Memory-card/static/media/PoppyButthole.e16b3213.jpg",
+    "static/media/Rick.f1bcce17.png": "/Memory-card/static/media/Rick.f1bcce17.png",
+    "static/media/Summer.ef5f5761.jpg": "/Memory-card/static/media/Summer.ef5f5761.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c50dcbf7.js",
+    "static/js/2.514eab20.chunk.js",
+    "static/css/main.093f88ac.chunk.css",
+    "static/js/main.5006296c.chunk.js"
+  ]
+}

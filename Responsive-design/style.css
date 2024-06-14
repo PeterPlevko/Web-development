@@ -1,0 +1,571 @@
+/* Issues
+	background images act differently in firefox
+*/
+
+/* Set box-sizing */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Main Nav bar */
+.main-nav {
+	max-width: 100%;
+}
+
+.main-nav ul {
+	display: flex;
+}
+
+.main-nav a {
+	color: #9d9d9d;
+	text-decoration: none;
+}
+
+.top-nav {
+	max-width: 100%;
+	background-color: #131313;
+}
+
+.top-nav a:hover {
+	color: #fff;
+}
+
+.main-nav ul li {
+	padding: 10px;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Sticky Nav header */
+.sticky-nav ul {
+	display: flex;
+}
+
+.sticky-nav ul li {
+	padding: 10px;
+}
+
+.bottom-nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fefefe;
+}
+
+.sticky-nav a {
+	color: #9d9d9d;
+	text-decoration: none;
+}
+.bottom-nav a:hover {
+	color: #000;
+}
+
+.bottom-nav button {
+	background-color: #00cccb;
+	font-size: 10px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: none;
+	color: white;
+}
+
+.bottom-nav button:hover {
+	background-color: #9a00cb;
+}
+
+.tnw2020-advert {
+	max-width: 100%;
+	background-color: #fedd33;
+}
+
+.tnw2020-advert a {
+	padding: 15px;
+	display: block;
+}
+
+.sticky-nav {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	/* Hide hamburger menu */
+	.condensed {
+		display: none;
+	}
+}
+
+@media (max-width: 1113px) {
+	/* The TNW conference timer and several bottom nav items disapear */
+	.tnw-timer,
+	.optional {
+		display: none;
+	}
+}
+
+@media (max-width: 782px) {
+	/* Hide internal contact info from nav */
+	.internal-contact > * {
+		display: none;
+	}
+}
+
+/* Featured Articles */
+.feature-articles {
+	max-width: 100%;
+	min-height: 450px;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-gap: 10px;
+	margin: 5px 20px 20px 20px;
+}
+
+.main-featured-article {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_64e3a5e-796x430.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	grid-row: span 2;
+}
+
+.featured-article {
+	width: 100%;
+}
+
+.dark-overlay {
+	display: flex;
+	align-items: flex-end;
+	min-height: 250px;
+	height: 100%;
+	width: 100%;
+	background-color: hsla(0, 0%, 0%, 0.55);
+}
+
+.feature-articles .article-wrapper,
+.article1 h3 {
+	padding: 10px;
+}
+
+.feature-articles h3 {
+	font-size: 40px;
+	color: #fff;
+}
+
+.feature-articles p {
+	margin: 10px;
+}
+
+.feature-articles p,
+.feature-articles a {
+	color: #9d9d9d;
+}
+
+.feature-articles a {
+	text-decoration: none;
+}
+
+.feature-articles a:hover {
+	color: #fff;
+}
+
+.feature-articles .article1 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
+	background-size: cover;
+	background-position: 50px;
+}
+
+.feature-articles .article2 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Disney-Plus-796x417.jpg");
+	background-position: -100px -100px;
+}
+
+/* Latest News Section */
+.article-section {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 12fr 1fr;
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.article-section > * {
+	grid-column: 2 / -2;
+}
+
+.article-section header {
+	min-height: 50px;
+	grid-area: "header";
+}
+
+.article-section header h2 {
+	color: #fe4421;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.article-container {
+	max-width: 100%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, 250px);
+}
+
+.article {
+	min-height: 200px;
+}
+
+.article .image {
+	max-width: 300px;
+	height: 150px;
+}
+
+.article h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.article .article-author,
+.article time {
+	font-size: 15px;
+	color: #9d9d9d;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.article-section .image {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.latest-news .image1 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/08/Jackie-Chan-WTF.jpg");
+}
+
+.latest-news .image2 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_5ddc697-481x270.png");
+}
+
+.latest-news .image3 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-29T180811.819-516x270.png");
+}
+
+.latest-news .image4 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/tnw2020-why_attend-feature_img-1280x7201-480x270.jpg");
+}
+
+.latest-news .image5 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/abn-futurejobs-editorial-513x270.jpg");
+}
+
+.latest-news .image6 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Coding-Lifestyle-1-405x270.jpg");
+}
+
+.latest-news .image7 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/france-ev-subsidies-cut-money-future-car-electric-budget-480x270.jpg");
+}
+
+.latest-news .image8 {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Hey-JF-514x270.jpg");
+}
+
+@media (max-width: 768px) {
+	.article {
+		display: flex;
+		min-height: 100px;
+	}
+
+	.article-section .image {
+		width: 100px;
+		height: 100px;
+		background-size: cover;
+	}
+
+	.article-section figcaption {
+		margin-left: 10px;
+	}
+}
+
+/* Media query for top nav and featured articles */
+@media (max-width: 768px) {
+	/* Move top nav to hamburger menu */
+	.condensed {
+		display: inline;
+	}
+
+	.top-nav,
+	.bottom-nav ul:first-child > * {
+		display: none;
+	}
+
+	/* Re-order featured articles */
+	.main-featured-article,
+	.featured-article {
+		grid-column: 1 / -1;
+	}
+
+	/* Change latest news to rows */
+	.article-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Funding Startups section */
+.funding-info h2 {
+	color: #fe4421;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.funding-info {
+	/* grid layout from article-section */
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.funding-info a {
+	text-decoration: none;
+}
+
+.funding-info header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.funding-info header ul {
+	display: flex;
+}
+
+.funding-info header ul li {
+	padding: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fe4421;
+	font-size: 20px;
+	border-right: solid 1px #fe4421;
+}
+
+.funding-info header ul li:last-child {
+	border: none;
+}
+
+.funding-article {
+	position: relative;
+	background-color: #fffaf7;
+}
+
+.funding-article img {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.funding-article .company-name {
+	width: 100%;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #fd4522;
+	padding: 10px 10px 10px 90px;
+	display: block;
+}
+
+.investment-card-details {
+	width: 100%;
+	background-color: #ffece8;
+	padding: 15px 10px 15px 90px;
+	display: block;
+}
+
+.investment-card-details h4 {
+	font-weight: bold;
+}
+
+.investment-card-details h5 {
+	color: #9d9d9d;
+	font-size: 13px;
+}
+
+.investment-card {
+	padding-bottom: 15px;
+	border-bottom: solid 1px #ffcec5;
+	margin-bottom: 10px;
+}
+
+.investment-card a,
+.investment-details {
+	display: block;
+	color: #616161;
+	padding: 8px;
+}
+
+.investment-card i {
+	color: #1b1a1a;
+	padding-right: 5px;
+}
+
+.investment-details {
+	font-size: 13px;
+}
+
+.investment-details span {
+	color: #b9b8b8;
+}
+
+@media (max-width: 1024px) {
+	.funding-info header {
+		display: block;
+	}
+	.funding-info header ul {
+		margin-top: 10px;
+	}
+
+	.funding-info .article-container .article:last-child {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.funding-info {
+		grid-template-columns: 1fr;
+	}
+
+	.funding-article {
+		display: grid;
+	}
+}
+
+/* Latest Deals Section - Partially styled in latest news section above */
+.latest-deals .price {
+	font-size: 15px;
+	color: #9d9d9d;
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: line-through;
+}
+
+.latest-deals .sale-price {
+	font-size: 20px;
+}
+
+.latest-deals .image1 {
+	background-image: url("https://cdnp2.stackassets.com/92bcda7b60a533e70b2fa0397cbcadc07252146a/store/bb31e60362b9c63654e22bfb415c89089ee735194d2a0b203557504eca16/sale_39532_primary_image.jpg");
+}
+.latest-deals .image2 {
+	background-image: url("https://cdnp2.stackassets.com/e44f78edfcb13200279a2501b09d16c02b10f739/store/c200444f3c9de39ea53f56d44028fbc6277a145194261a66d8a2ed1b0a56/product_27619_product_shots1.jpg");
+}
+.latest-deals .image3 {
+	background-image: url("https://cdnp2.stackassets.com/8e0993a6872f2503cf823630136ce683cc189e9c/store/a70ee97d32682f4557da68577fb3ee99f751c767bb2b6fca3699ce717892/sale_31146_primary_image.jpg");
+}
+.latest-deals .image4 {
+	background-image: url("https://cdnp0.stackassets.com/2914aa3b38a186242cb7b1bc428851d9b94a7ee8/store/8f5bccf2a40516fcccf397314e43edbe23617e4de585b3efa404a49b6594/sale_40096_primary_image.jpg");
+}
+.latest-deals .image5 {
+	background-image: url("https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg");
+}
+.latest-deals .image6 {
+	background-image: url("https://cdnp1.stackassets.com/7f4aa2ed98e534c594e3cfa0428d87af031d671f/store/02ef28b041b04c930975de395bc854e5b415e020e81439c40ce539817b81/sale_18478_primary_image.jpg");
+}
+.latest-deals .image7 {
+	background-image: url("https://cdnp1.stackassets.com/d2f3f6671668103cd2b2dee90fac171f712f236d/store/89d853fbd42b8ab356b517bb5fd19abf0a5cc68204960e56327147c04603/product_41976_product_shots1.jpg");
+}
+.latest-deals .image8 {
+	background-image: url("https://cdnp3.stackassets.com/48a13bece46b88b04b96c76e982c713100cc7e92/store/6537cc5ac58ae55e70d4fa139edb82eb2bd9dbf254b4959ae414bfa3f9e8/sale_22290_primary_image.jpg");
+}
+
+/* Footer section */
+footer {
+	background-color: #141414;
+	max-width: 100%;
+	min-height: 350px;
+	position: relative;
+}
+
+footer,
+footer i,
+footer a {
+	color: #9d9d9d;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer .logo,
+.social i {
+	color: #fff;
+}
+
+footer nav {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+footer nav ul {
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.social li {
+	background-color: #303030;
+	padding: 12px;
+	border-radius: 20px;
+	margin: 5px;
+	border: solid 1px #303030;
+}
+
+.social li:hover {
+	background-color: #141414;
+}
+
+footer .internal-links li {
+	padding: 15px;
+}
+
+footer .internal-links a {
+	font-size: 13px;
+}
+
+footer .internal-links a:hover {
+	color: #fff;
+}
+
+.copyright {
+	background-color: #000000;
+	width: 100%;
+	min-height: 100px;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+	}
+
+	.social li {
+		margin: 2px;
+	}
+	footer .internal-links li {
+		padding: 10px;
+	}
+}

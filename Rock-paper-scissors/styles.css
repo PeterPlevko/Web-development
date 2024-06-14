@@ -1,0 +1,63 @@
+header {
+    background-color: grey;
+    padding: 100px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#buttons{
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+}
+
+button {
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+
+#score{
+    text-align: center;
+}
+
+p1{
+    font-size: 50px;
+}
+
+p2{
+    font-size: 50px;
+}
+
+p2{
+
+    padding: 0px;
+    border: 0px;
+}
+
+#rock {
+    background-image: url( 'images/rock.png' );
+    background-size: 250px 250px;
+    height: 250px;  
+    width: 250px;
+}
+#paper {
+    background-image: url( 'images/paper.png' );
+    background-size: 250px 250px;
+    height: 250px;  
+    width: 250px;
+}
+#scissors {
+    background-image: url( 'images/scissors.png' );
+    background-size: 250px 250px;
+    height: 250px;  
+    width: 250px;
+}

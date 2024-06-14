@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+*, *::before, *::after {
+    font-family: "Source Sans Pro", sans-serif;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+a {
+    color: #0077C5;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-weight: bold;
+    color: #fafafa;
+    font-size: 0.9em;
+    background-color: #0077C5;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    flex-grow: 0;
+    margin: 0 10px;
+}
+
+button object {
+    margin-right: 10px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cont {
+    width: 100%;
+    margin: 15px auto;
+}
+
+#logo ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#logo ul object {
+    margin-left: 15px;
+    margin-right: 4px;
+}
+
+#logo ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#logo ul a {
+    color: #646464;
+    font-weight: bolder;
+}
+
+header {
+    height: 2em;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+header p {
+    font-size: 0.9em;
+}
+
+header div {
+    display: flex;
+    margin: 10px 0;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+}
+
+label {
+    width: 100%;
+    margin-top: 25px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0077C5;
+    box-shadow: 0 0 10px #74c8ff;
+}
+
+#form-container {
+    width: 400px;
+    background-color: #fafafa;
+    border: 1px solid #bdbdbd;
+}
+
+#form-container h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#form-container a {
+    color: #0077C5;
+}
+
+#bottom-info {
+    font-size: 0.9em;
+    width: 100%;
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.lighter-text {
+    color: #646464;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#form-container em {
+    padding: 0 40px;
+    display: block;
+    margin: 20px 0;
+}
+
+#form-container button {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    margin-top: 25px;
+}
+
+#form-container button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-bottom {
+    display: flex;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.legal-bottom a {
+    color: #333;
+}
+
+.legal-bottom > li {
+    margin-right: 20px;
+}
+
+.rights {
+    width: 700px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+footer ul li {
+    margin-right: 10px
+}

@@ -1,0 +1,8 @@
+extends layout
+block content
+    .form.post.post-form
+        form(action='' method='POST')
+            .field 
+                label(for="admin_password") Admin password:
+                input(type="password", placeholder="admin password", name='admin_password')
+            button.button Become a god

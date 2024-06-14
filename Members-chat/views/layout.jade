@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav
+      .logo Members Only
+      .nav_buttons
+        if currentUser 
+          .nav_button
+            a(href='/logout')  
+              button.button Log out
+          if currentUser.isAdmin == false
+            .nav_button
+              a(href='/become-admin')  
+                button.button Become admin
+        else 
+          a.nav_button(href='/login') 
+            button.button Log in 
+          .nav_button
+            a(href='/sign-up') 
+              button.button Sign in
+
+      
+    block content

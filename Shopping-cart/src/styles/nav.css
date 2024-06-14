@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+
+a:hover{
+  color: red;
+}
+
+#selected{
+  color: black;
+}

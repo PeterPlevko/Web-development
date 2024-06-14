@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  if currentUser
+    .post 
+      form(action='' method='POST')
+              .field 
+                  label(for="title") Title:
+                  input(type="text", placeholder="title", name='title')
+              .field
+                  label(for='password') Text:
+                  textarea(name="text", cols="30", rows="10", placeholder='input your message')
+              button.button post
+
+  for post in post_list 
+    .post
+      h2 #{post.title}
+      p #{post.text}
+      if currentUser
+        .credential
+          .credential_item Author: #{post.author.username}
+          .credential_item #{post.createdAt_format}
+        if currentUser.isAdmin == true 
+          form(action='/delete_post' method='POST')
+            input(type="hidden" name='postId' value=post._id)
+            button.button delete
+  
+

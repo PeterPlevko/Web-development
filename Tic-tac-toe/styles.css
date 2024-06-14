@@ -1,0 +1,77 @@
+  
+.header {
+  margin: auto;
+  border: 3px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: lightblue;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+
+.grid {
+display: grid;
+grid-gap: 1px;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+position: absolute;
+right: 40%;
+margin-top: 20px;
+}
+
+
+div > div {
+  padding: 40px;
+  background-color: white;
+  min-height: 50px;
+  min-width: 50px;
+  font-size: 40px;
+  -webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  user-select: none; 
+}
+
+
+div:hover{
+  background-color: lightblue;
+}
+
+
+.turn{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.turn:hover{
+  background-color: grey;
+}
+
+
+.wrapper {
+  text-align: center;
+} 
+
+
+#restart{
+  position: absolute;
+  top: 62%;
+  min-width: 200px;
+  min-height: 50px;
+  font-size: 30px;
+  right: 45%;
+}
+
+
+html {
+  cursor:grab;
+}

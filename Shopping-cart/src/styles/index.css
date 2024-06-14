@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  margin: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  font-family: "Akaya Telivigala", cursive;
+}
